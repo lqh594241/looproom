@@ -22,7 +22,11 @@ npm run build
 
 ## 广告与统计
 
-所有 HTML 页面已接入 Ahrefs Web Analytics，使用你提供的 data-key：`H9b2GINvE+UAtMw7v33ULA`，每页仅加载一次。首页代码在 `AHREFS_ANALYTICS_START/END` 内，隐私说明已同步更新。`AD_HEAD_START/END`、`AD_BANNER_START/END`、`AD_BODY_START/END` 广告位仍预留为空。顶部横幅是正常文档流的全宽区域，可关闭；粘贴本站专属广告位代码后移除 `#ad-banner` 的 hidden。不要复制其他站的广告位或重复添加同一脚本。启用广告后更新隐私说明。本站已启用统计，未加载真实广告。
+`ads.js` 已接入本次提供的 Looproom 专属 HilltopAds 横幅与弹窗链接。顶部全宽横幅正常占位，可用 × 关闭，不悬浮；空广告位或加载失败时折叠，手机上按可用宽度缩放。
+
+首次真实点击 `#play`（播放）、`#metronome`（节拍器）或 `#export-loop`（WAV 导出）时尝试打开广告新标签页，每次页面加载最多一次，不拦截原功能。文件选择、停止、AB 设置、导航和关闭横幅不触发；禁用按钮及脚本模拟点击不触发。浏览器可能限制弹窗，不会反复重试。
+
+所有页面保留现有 Ahrefs Web Analytics 和验证代码，不重复加载。广告仅在工具首页启用，隐私说明已更新。构建会自动包含 `ads.js`，广告填充和内容由平台控制。
 
 ## 范围
 
