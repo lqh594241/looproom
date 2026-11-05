@@ -1,0 +1,12 @@
+{
+  "slug": "looproom",
+  "brand": "Looproom",
+  "kicker": "Audio tools for the way you practice.",
+  "title": "GET INTO<br><em>THE LOOP.</em>",
+  "desc": "Loop a tricky phrase, slow down your track, and keep your practice moving. Your audio stays on your device.",
+  "accent": "#d9ff55",
+  "dark": "#f4f4ed",
+  "kind": "audio",
+  "port": "4175",
+  "design": "recording studio / acid lime / vinyl"
+}
