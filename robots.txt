@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://looproom.luqihang594241.workers.dev/sitemap.xml
